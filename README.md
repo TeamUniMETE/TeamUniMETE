@@ -3,6 +3,6 @@
 Team Members:
 
 Mads Østrem
-Edvard nygård
+Edvard Nygård
 Eirik Steinsland
 Tord Øyvind Fosse
