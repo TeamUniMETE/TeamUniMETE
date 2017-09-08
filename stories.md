@@ -13,6 +13,9 @@ as a student i want to be able to share my list with other students(Studentgroup
   -sharing with one individual.
   -share and collaberate with multiple or singular persons.
   
+as a buisy student i want the program have a simple UI, to save time and eliminate stress.
+
+as a regular user i want the system to be understandable and easy to orientate
   
 as a user i can save my list and files;
   -local or global
