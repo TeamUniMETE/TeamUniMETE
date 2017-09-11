@@ -42,6 +42,7 @@ As a student/regular user I want to be able to have an account which makes it po
 
 
 Tord Fosse;
+
 As a User I want the task manager to sort the different tasks multiple ways (due date/ work load / difficulty/importance) to make it easier to plan how to work.
 
 As an admin of a group I want to be able to kick/ban people from the task manager group, In case of a group member causes disorder.
