@@ -42,7 +42,17 @@ As a student/regular user I want to be able to have an account which makes it po
 
 
 Tord Fosse;
+As a User I want the task manager to sort the different tasks multiple ways (due date/ work load / difficulty/importance) to make it easier to plan how to work.
 
+As an admin of a group I want to be able to kick/ban people from the task manager group, In case of a group member causes disorder.
+
+As a user I want to be reminded of tasks that has to be done a week or another time by my choosing, before due date. Because people forget.
+
+As a group member, I want to be able to see who is working on which task, So we don’t have multiple people working on the same task.
+
+As a user/ student/office worker I want to be able to add a weekly tasks (like a weekly meeting / lecture/..) so I do not need to add them multiple times. (Calendar).
+
+As a User I want a notification when a new task has been created. So I am always updated.
 
 
 Eirik Steinsland;
