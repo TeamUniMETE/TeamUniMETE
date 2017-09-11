@@ -57,3 +57,14 @@ As a User I want a notification when a new task has been created. So I am always
 
 
 Eirik Steinsland;
+
+As a user I want the task manager to have an easy and understandable UI.
+
+As a user I want to get notifications, for example when changes have been made or a due date is close, and be able to change the notifacation preferences to what I think is important for me.
+
+As user I want to have an account so I can log in on different devices.
+
+As a user I want to be able to add new tasks and be able to sort the tasks after due date, importance etc.
+
+
+
