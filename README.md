@@ -10,6 +10,7 @@ Tord Øivind Fosse
 
 Roadmap;
 
+https://docs.google.com/document/d/14nQoBIUBJOVo739mGuDf24cc4ziUlTvvFUe3M7OOsXQ/edit
 link
 
 
