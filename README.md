@@ -6,6 +6,7 @@ Mads Østrem;
 https://github.com/RoyalKode;
 
 Edvard Nygård;
+https://github.com/AstroBear666
 
 Eirik Steinsland;
 https://github.com/eiris14
