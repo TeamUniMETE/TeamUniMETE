@@ -24,6 +24,7 @@ The app’s purpose is to make an easy way of organizing your tasks and prioriti
 
 
 Roadmap and backlog;
-https://trello.com/b/T94ApPQz/program
 
-link
+https://trello.com/b/T94ApPQz/program;
+
+
