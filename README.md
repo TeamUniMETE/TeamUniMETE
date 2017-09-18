@@ -3,6 +3,7 @@
 Team Members:
 
 Mads Østrem;
+https://github.com/RoyalKode;
 
 Edvard Nygård;
 
