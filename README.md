@@ -8,6 +8,7 @@ https://github.com/RoyalKode;
 Edvard Nygård;
 
 Eirik Steinsland;
+https://github.com/eiris14
 
 Tord Øivind Fosse;
 
