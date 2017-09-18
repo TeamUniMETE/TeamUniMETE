@@ -2,7 +2,7 @@
 
 Team Members:
 
-Mads Østrem;
+Mads Østrem [Product Owner];
 https://github.com/RoyalKode;
 
 Edvard Nygård;
