@@ -11,6 +11,7 @@ Eirik Steinsland;
 https://github.com/eiris14
 
 Tord Øivind Fosse;
+https://github.com/tordof13
 
 
 Roadmap;
