@@ -1,4 +1,4 @@
-# Burger 
+# Burger (product name)
 
 Team Members:
 
