@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "A barebone server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamUniMETE/TeamUniMETE.git"
+  },
+  "author": "Mads Østrem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeamUniMETE/TeamUniMETE/issues"
+  },
+  "homepage": "https://github.com/TeamUniMETE/TeamUniMETE#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.1",
+    "mongojs": "^2.4.1"
+  }
+}
