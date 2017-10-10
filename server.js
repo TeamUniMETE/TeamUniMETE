@@ -3,7 +3,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 
 //SET LISTENPORT
-var port = 3000;
+var portNr = 3000;
 
 var index = require('./routes/index');
 var tasks = require('./routes/tasks');
@@ -25,6 +25,6 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use('/', index);
 app.use('/api', tasks);
 
-app.listen(port, function(){
-  console.log('Server started on port ' + port + '...');
+app.listen(process.env.PORT || portNr, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
