@@ -12,7 +12,7 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 
 //SET STATIC FOLDER
-app.use(express.static(path.join(__dirname, 'client')));
+app.use(express.static(path.join(__dirname, 'views')));
 
 app.use('/', index);
 app.use('/api', tasks);
