@@ -9,7 +9,7 @@ schema:
             {
     
         "list_id":{
-            "descrition": "id for each list created"
+            "descrition": "id for each list created",
             "type": "serial"
                 
         
