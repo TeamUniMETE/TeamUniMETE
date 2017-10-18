@@ -2,6 +2,8 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var exphbs = require('express-handlebars');
 var path = require('path');
+cont url = require('url')
+const {Client} = require('pg');
 
 // ROUTES
 var routes = require('./routes/index');
@@ -25,6 +27,16 @@ app.use(express.static(path.join(__dirname, 'public')));
 // GLOBAL VARIABLES
 app.use('/', routes);
 app.use('/users', users);
+
+function createUserAccount(user){
+  let client = new Client({
+    connectionString:process.env.DATABASE_URL,
+    ssl:true
+  });
+  client.connect();
+
+  let sql = 'INSERT INTO' "userAccounts"("name", "userName", "email", "password")
+}
 
 
 // APP LISTEN

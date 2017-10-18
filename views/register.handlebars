@@ -6,32 +6,33 @@
   <div class="field">
     <section class="input-content">
       <h2>Register</h2>
-      <form class="" action="index.html" method="post">
+      <form action="/users/register" method="post">
         <div class="input-div-field">
-          <input class="input-field" id="input-1" type="text" placeholder="Full Name" />
+          <input name="name" class="input-field" id="input-1" type="text" placeholder="Full Name" />
           <!--<label class="input-label" for="input-1"></label>-->
         </div>
         <div class="input-div-field">
-          <input class="input-field" id="input-2" type="text" placeholder="Username"/>
+          <input name="username" class="input-field" id="input-2" type="text" placeholder="Username"/>
           <label class="input-label" for="input-2">
             <!--<span class="input-label-content">Username</span>-->
           </label>
         </div>
         <div class="input-div-field">
-          <input class="input-field" id="input-3" type="email" placeholder="Email"/>
+          <input name="email" class="input-field" id="input-3" type="email" placeholder="Email"/>
           <label class="input-label" for="input-3">
           </label>
         </div>
         <div class="input-div-field">
-          <input class="input-field" id="input-4" type="password" placeholder="Password" />
+          <input name="password" class="input-field" id="input-4" type="password" placeholder="Password" />
           <label class="input-label" for="input-4">
           </label>
         </div>
         <div class="input-div-field">
-          <input class="input-field" id="input-5" type="password" placeholder="Confirm password"/>
+          <input name="password2" class="input-field" id="input-5" type="password" placeholder="Confirm password"/>
           <label class="input-label" for="input-5">
           </label>
         </div>
+        <button type="submit" name="" value="">Register</button>
       </form>
     </section>
   </div>
