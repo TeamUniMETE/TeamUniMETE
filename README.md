@@ -1,5 +1,7 @@
 # Burger
 
+appLink(Heroku);
+https://uia-burger.herokuapp.com/
 
 Mads Østrem 
 
