@@ -1,23 +1,23 @@
-    //dataStructure-------------------------
+      //dataStructure-------------------------
     
 schema:
 {
 
-    list:{
+    "list":{
         "type":"array",
         "items":[
             {
     
         "list_id":{
             "descrition": "id for each list created"
-            "type":{
+            "type": "serial"
                 
-        }
+        
         },
                 
         "list_name":{
             "description": "name of the list that ",
-            type:"string"
+            "type": "string"
             
         },
         
@@ -53,7 +53,7 @@ schema:
 
 example:
 {
-    list:[
+    "list":[
         {"list_name":"Handle liste", "prod_act_name": "melk", "quantity": "1", "sidenote": " one litre", "importance": "4", "by_date": "2018-12-12 12:00:00"}
     ]
 }
