@@ -3,11 +3,10 @@ create database ListeApp;
 use ListeApp;
 
 create table user_accounts(
-    User_id serial,
     user_email varchar (25),
-    user_name varchar (10),
-    salt varchar (10),
-    salted_hash varchar (20),
+    fullName varchar (var),
+    username varchar (10),
+    password varchar (15),
     primary key (User_id)
 );
 
