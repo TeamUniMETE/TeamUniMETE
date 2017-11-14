@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Create user</title>
+    <script src="fetch.js"></script>
+</head>
+
+<body>
+    <input id="inpLoginname" placeholder="Login name">
+    <input id="inpPassword" placeholder="Password">
+    <input id="inpFullname" placeholder="Full name">
+    <button id="btnCreate">Create new user</button>
+</body>
+
+<style>
+    input, button, textarea, label {
+        width: 100%;
+        margin-bottom: 8px;
+        height: 40px;
+        font-size: 1.5em;
+        font-family: sans-serif;
+    }
+</style>
+
+<script>
+
+    var inpLoginname = document.getElementById("inpLoginname");
+    var inpPassword = document.getElementById("inpPassword");
+    var inpFullname = document.getElementById("inpFullname");
+    var btnCreate = document.getElementById("btnCreate");
+
+    //button click ---------------------------------
+    btnCreate.onclick = function() {
+
+        var upload = JSON.stringify({
+            loginname: inpLoginname.value,
+            password: inpPassword.value,
+            fullname: inpFullname.value
+        });
+
+        var url = "http://localhost:3000/users/register/";
+
+        var cfg = {
+            method: "POST",
+            body: upload
+        }
+
+        superfetch(url, "json", succ, error, cfg);
+    }
+
+    //success --------------------------------------
+    function succ(data) {
+        //save logindata/token to localStorage
+        localStorage.setItem("logindata", JSON.stringify(data));
+        console.log(data);
+    }
+
+    //error ----------------------------------------
+    function error(err) {
+        console.log(err);
+    }
+
+</script>
+
+</html>
