@@ -12,15 +12,7 @@
   "dependencies": {
     "bcryptjs": "*",
     "body-parser": "*",
-    "connect-flash": "*",
     "express": "*",
-    "express-handlebars": "*",
-    "express-messages": "*",
-    "express-session": "*",
-    "express-validator": "*",
-    "passport": "*",
-    "passport-http": "*",
-    "passport-local": "*",
     "pg": "7.3.0"
   }
 }
