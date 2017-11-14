@@ -1,35 +1,33 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-var db = require('./dbconnect');
+const db = require('./dbconnect');
 const app = express();
 
+/*
 app.use(function(req, res, next) {
     res.set('Access-Control-Allow-Origin', '*');
     res.set('Access-Control-Allow-Methods', 'GET, PUT, POST, DELETE');
     next();
 });
+*/
 
 //----USERMODULE----//
 var users = require('./users');
 app.use('/users', users);
 
-/*
-app.get('/test', function(req, res) {
+//-------------------------//
+app.get('/', function(req, res) {
 
-    var sql = '';
+    var sql = 'SELECT * FROM users';
 
     db.any(sql).then(function(data) {
+
         res.status(200).json(data);
-    })
-    .catch(function (err) {
-        res.status(500).json(err)
-    })
 
-});
-*/
+    }).catch(function(err) {
 
-app.get('/', function(req, res) {
-    res.send('ROOT');
+        res.status(500).json({err});
+    });
 });
 
 app.listen(process.env.PORT || 3000, function (){

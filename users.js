@@ -6,6 +6,7 @@ var bcrypt = require('bcrypt');
 var db = require('./dbconnect');
 
 var secret = "frenchfriestastegood!"; //used to create the token
+
 // REGISTER
 router.get('/', function(req, res) {
     res.send('you are at /users');
