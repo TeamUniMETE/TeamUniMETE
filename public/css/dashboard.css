@@ -117,6 +117,21 @@ body
   padding-left: 20px;
   box-sizing: border-box;
 }
+.field button[type="submit"]
+{
+  border: 2px solid #262626;
+  outline: none;
+  height: 40px;
+  color: rgba(255, 255, 255, 1);
+  background: transparent;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  left: 25%;
+  right: 25%;
+  position: relative;
+  margin-top: 1em;
+}
 .input-div-field
 {
   position: relative;

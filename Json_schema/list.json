@@ -1,0 +1,61 @@
+      //dataStructure-------------------------
+    
+schema:
+{
+
+    "list":{
+        "type":"array",
+        "items":[
+            {
+    
+        "list_id":{
+            "descrition": "id for each list created",
+            "type": "serial"
+                
+        
+        },
+                
+        "list_name":{
+            "description": "name of the list that ",
+            "type": "string"
+            
+        },
+        
+        "prod_act_name": {
+            "description": "Name of the product or activity",
+            "type": "string"
+        },
+        "quantity":{
+            "description": "how much you want of an item",
+            "type": "int"
+        },
+        "sidenote":{
+            "description": " extra info a user might want to add",
+            "type": "string"
+        },
+        
+        "importance":{
+            "description": "how important the list is, split into 4 categories: none, low, medium, high",
+            "type" "int"    
+        },
+        
+        "by_date":{
+            "description": "clock and date that the activity or product should be done by",
+            "type" : "datetime"
+            
+                }
+            }
+        ]
+    },
+    "required": ["list_name", "prod_or_act_name", "importance" ],
+    "optional": ["sidenote", "quantity","by_date"]
+}
+
+example:
+{
+    "list":[
+        {"list_name":"Handle liste", "prod_act_name": "melk", "quantity": "1", "sidenote": " one litre", "importance": "4", "by_date": "2018-12-12 12:00:00"}
+    ]
+}
+
+
