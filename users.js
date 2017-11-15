@@ -5,7 +5,7 @@ var jwt = require("jsonwebtoken");
 var bcrypt = require('bcrypt');
 var db = require('./dbconnect');
 
-var secret = "frenchfriestastegood!"; //used to create the token
+var secret = "greatmindcomesgreatresponsibilty"; //used to create the token
 
 // REGISTER
 router.get('/', function(req, res) {

@@ -10,9 +10,14 @@ app.use(function(req, res, next) {
 });
 
 
-//----USERMODULE----//
+//----USERROUTE----//
 var users = require('./users');
 app.use('/users', users);
+
+//----GROUPROUTE----//
+var groups = require('./groups');
+app.use('/groups', groups);
+
 
 //-------------------------//
 app.get('/', function(req, res) {

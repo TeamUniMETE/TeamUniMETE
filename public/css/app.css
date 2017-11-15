@@ -1,0 +1,41 @@
+.container
+{
+    display: grid;
+    grid-template-columns: 2fr 7fr ;
+    grid-template-areas:
+    "header header"
+    "sidemenu contentmenu";
+}
+.header
+{
+    grid-area: header;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+.content
+{
+    grid-area: contentmenu;
+    display: grid;
+}
+.sidemenu
+{
+    grid-area: sidemenu;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "info"
+    "share"
+    "private"
+    ;
+}
+.info
+{
+    grid-area: info;
+}
+.share
+{
+    grid-area: share;
+}
+.private
+{
+    grid-area: private;
+}
