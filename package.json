@@ -15,6 +15,6 @@
     "express": "*",
     "jsonwebtoken": "^8.1.0",
     "pg": "7.3.0",
-    "pg-promise": "^7.3.1",
+    "pg-promise": "^7.3.1"
   }
 }

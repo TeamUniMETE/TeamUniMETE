@@ -6,10 +6,5 @@ var bcrypt = require('bcrypt');
 var db = require('./dbconnect');
 
 
-router.post('/', function(req, res) {
-
-    
-});
-
 
 module.exports = router;

@@ -91,7 +91,6 @@ router.post('/auth/', bodyParser, function (req, res) {
 
         //send logininfo + token to the client
         res.status(200).json({loginname: data[0].loginname, fullname: data[0].fullname, token: tok});
-
     }).catch(function(err) {
 
         res.status(500).json({err});
